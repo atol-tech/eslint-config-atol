@@ -1,6 +1,6 @@
 {
   "name": "@atol/eslint-config-atol",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atol-tech/eslint-config-atol.git"
