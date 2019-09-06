@@ -3,7 +3,7 @@
   "homepage": "https://github.com/atol-tech/eslint-config-atol#readme",
   "description": "Eslint configuration set for projects of ATOL. Based of eslint-config-airbnb.",
   "author": "kakrostropovich",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atol-tech/eslint-config-atol.git"
@@ -20,8 +20,8 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.2.2",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.2.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3"
   },
   "bugs": {
