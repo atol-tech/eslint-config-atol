@@ -43,6 +43,7 @@ module.exports = {
     'max-statements': ['error', 100],
     'class-methods-use-this': 'off',
     'no-debugger': 'warn',
+    'no-shadow': 'warn',
 
     // imports
     'import/no-named-as-default': 'off',
@@ -109,5 +110,6 @@ module.exports = {
     'react/forbid-prop-types': ['error', {forbid: ['any']}],
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': ['warn', {aspects: ['invalidHref']}],
+    'jsx-props-no-spreading': ['warn'],
   },
 };
