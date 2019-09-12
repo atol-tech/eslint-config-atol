@@ -3,7 +3,7 @@
   "homepage": "https://github.com/atol-tech/eslint-config-atol#readme",
   "description": "Eslint configuration set for projects of ATOL. Based of eslint-config-airbnb.",
   "author": "kakrostropovich",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atol-tech/eslint-config-atol.git"

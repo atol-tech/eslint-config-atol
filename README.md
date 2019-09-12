@@ -6,7 +6,7 @@ npm:
 
 ```bash
 # 1. Install peer dependencies
-npm i babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-react --save-dev
+npm i babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react --save-dev
 
 # 2. Install package
 npm i @atol/eslint-config-atol --save-dev
