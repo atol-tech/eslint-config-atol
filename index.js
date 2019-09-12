@@ -1,10 +1,9 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   extends: ['airbnb'],
   plugins: [
     'react',
     'import',
-    'prettier',
   ],
   env: {
     browser: true,
@@ -21,6 +20,7 @@ module.exports = {
     beforeAll: true,
     isNaN: true,
     window: true,
+    webpack: true,
   },
   rules: {
     'max-depth': ['error', 4], // глубина вложенностей в блоках
@@ -47,7 +47,7 @@ module.exports = {
 
     // imports
     'import/no-named-as-default': 'off',
-    'import/no-unresolved': ['error', {commonjs: true, caseSensitive: true, ignore: ['controls']}],
+    'import/no-unresolved': ['warn', {commonjs: true, caseSensitive: true, ignore: ['controls']}],
     'import/no-extraneous-dependencies': ['off'], //можно включить тока нужно резолвы разрулить
 
     // Styles
@@ -110,6 +110,7 @@ module.exports = {
     'react/forbid-prop-types': ['error', {forbid: ['any']}],
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': ['warn', {aspects: ['invalidHref']}],
-    'jsx-props-no-spreading': ['warn'],
+    'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-fragments': ['warn', 'element']
   },
 };
